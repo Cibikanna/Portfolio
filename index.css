@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(0, 204, 255);
+    background-color: rgb(251, 253, 253);
 }
 .navbar
 {
@@ -7,14 +7,61 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    background-color: rgb(138, 43, 226);
 }
+.skillbar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(138, 43, 226);
+}
+
 .nav
 {
     display:flex;
     list-style-type: none;
     gap: 10px;
 }
-.nav li a
+a
 {
     text-decoration: none;
+}
+h1
+{
+    text-align: center;
+}
+.carrier_objective
+{
+    text-align: center;
+}
+.font
+{
+    font-family:cursive;
+}
+.name
+{
+    text-shadow: 2px 2px 2px;
+    color: rgb(172, 137, 30);
+}
+.buttons
+{
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+.cv
+{
+    padding: 8px;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgb(14, 14, 226);
+    border: none;
+}
+.image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
