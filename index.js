@@ -18,3 +18,13 @@ function bounce() {
 }
 
 bounce();
+// script.js
+document.getElementById('mskill').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('skills').scrollIntoView({ behavior: 'smooth' });
+});
+
+document.getElementById('mproject').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
+});
