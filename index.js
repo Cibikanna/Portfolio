@@ -28,3 +28,7 @@ document.getElementById('mproject').addEventListener('click', function(event) {
     event.preventDefault();
     document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
 });
+document.getElementById('mhome').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('home').scrollIntoView({ behavior: 'smooth' });
+});

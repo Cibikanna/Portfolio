@@ -6,8 +6,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    background-color: rgb(138, 43, 226);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 99%;
+    background-color: rgb(25, 150, 234);
 }
 .skillbar
 {
@@ -15,8 +19,9 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color: rgb(138, 43, 226);
+    background-color:  rgb(25, 150, 234);
 }
+
 
 .nav
 {
@@ -30,6 +35,12 @@ a
     cursor: pointer;
     color: black;
 }
+.pimg
+{
+    padding:30px;
+    height: 200px;
+    width: 200px;
+}
 h1
 {
     text-align: center;
@@ -38,9 +49,15 @@ h1
 {
     text-align: center;
 }
+.p1
+{
+    display: flex;
+    gap: 20px;
+}
 .font
 {
     font-family:cursive;
+  
 }
 .name
 {
@@ -58,8 +75,12 @@ h1
     padding: 8px;
     justify-content: center;
     border-radius: 10px;
-    background-color: rgb(138, 43, 226);
+    background-color:  rgb(25, 150, 234);
     border: none;
+}
+.topic
+{
+    color: rgb(99, 13, 219);
 }
 .image
 {

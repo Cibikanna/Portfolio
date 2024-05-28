@@ -7,20 +7,21 @@
     <title>Cibi</title>
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="navbar" >
         <div>
             <h2>Cibikanna</h2>
         </div>
         <ul class="nav">
-            <li><a>Home</a></li>
+            <li><a id="mhome">Home</a></li>
             <li><a id="mskill">Skills</a></li>
             <li><a id="mproject">Projects</a></li>
             <!-- <li><a>Experience</a></li> -->
             <li><a>About</a></li>
         </ul>
     </nav>
-
-    <h1 class="font">Hello, I'm </h1>
+    <br><br>
+<div class="h" id="home">
+    <h1 class="font" style="margin-top: 50px;">Hello, I'm </h1>
     <h1 class="name">Cibikanna</h1>
     <h1 style="text-shadow: 1px 1px 1px;">Software Developer</h1>
     <p class="carrier_objective">Ambitious software developer seeking an entry-level role<br> to utilize coding skills and contribute to innovative, scalable solutions.</p>
@@ -32,10 +33,10 @@
     <div class="image">
         <img id="i" src="images/dev.png" alt="developement image">
     </div>
-
+</div>
     <div id="skills">
         <nav class="skillbar"><h1>Skills</h1></nav>
-        <h1>Programming Languages</h1>
+        <h1 class="topic">Programming Languages</h1>
         <section class="languages">
             <div class="container">
                 <img  class="logo" src="images/java.png" alt="java image">
@@ -51,7 +52,7 @@
             </div>
             
         </section>
-        <h1>Web Developement</h1>
+        <h1 class="topic">Web Developement</h1>
         <section class="languages">
             <div class="container">
                 <img  class="logo" src="images/html.png" alt="html image">
@@ -66,7 +67,7 @@
                 <img  class="logo" src="images/laravel.png" alt="Laravel image">
             </div>
         </section>
-        <h1>Version Control</h1>
+        <h1 class="topic">Version Control</h1>
         <section class="languages">
             <div class="container">
                 <img  class="logo" src="images/git.png" alt="github image">
@@ -82,20 +83,36 @@
     </div>
     <div id="projects">
         <nav class="skillbar"><h1>Projects</h1></nav>
-        <section class="languages">
-            <div class="container">
-                <img class="logo" src="images/Minesweeper.png" alt="Minesweeper">
-                <P><a href="https://onlinegdb.com/lpiIOHYba" target="_blank">Minesweeper</a></P>
-            </div>
-            <div class="container">
-                <img class="logo" src="images/xo.png" alt="Minesweeper">
-                <P><a href="https://onlinegdb.com/-5UCQxTWb">Tic Tac Toe</a></P>
-            </div>
-            <div class="container">
-                <img class="logo" src="images/word.png" alt="Minesweeper">
-                <P><a href="https://onlinegdb.com/ntR5SqK6n" target="_blank">Word Puzzle</a></P>
-            </div>
-        </section>
+        <h3 style="justify-content: center; align-items: center; display: flex;">Minesweeper</h3>
+        <div class="p1">
+            <img class="pimg" src="images/Minesweeper.png" alt="Minesweeper">
+            
+            <p><br>Developed a Minesweeper game using Java, showcasing proficiency in objectoriented programming . Implemented the classic Minesweeper game play
+                mechanics and features, including random mine placement console application.<br>
+                Implemented the core game mechanics, such as revealing tiles, displaying
+                adjacent mine counts, and handling game over conditions.<br>
+                Developed an algorithm to generate mine placement randomly, ensuring each
+                game session is unique and challenging.<br>to see the implementation <a href="https://www.onlinegdb.com/lpiIOHYba">Click Here</a></p>
+        </div>
+        <h3 style="justify-content: center; align-items: center; display: flex;">Tic-Tac-Toe</h3>
+        <div class="p1">
+            <img class="pimg" src="images/xo.png" alt="xo">
+            
+            <p><br>Developed a console-based Tic Tac Toe game application using Java.
+                Implemented the game logic, user input handling, and board rendering
+                functionalities.<br>Utilized object-oriented programming principles to design the game structure and
+                modularize code.<br>Conducted thorough testing and debugging to ensure application stability and
+                reliability.<br>to see the implementation <a href="https://www.onlinegdb.com/-5UCQxTWb">Click Here</a>
+                </p>
+        </div>
+        <h3 style="justify-content: center; align-items: center; display: flex;">Word Puzzle</h3>
+        <div class="p1">
+            <img class="pimg" src="images/word.png" alt="word puzzle">
+            
+            <p><br>Developed a console-based Word puzzle game application using Java.
+                <br>to see the implementation <a href="https://www.onlinegdb.com/ntR5SqK6n">Click Here</a>
+                </p>
+        </div>
     </div>
     
     <script src="index.js"></script>
