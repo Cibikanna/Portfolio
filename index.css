@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(251, 253, 253);
+    background-color: #00203FFF;
+    color: azure;
 }
 .navbar
 {
@@ -11,7 +12,7 @@ body{
     overflow: hidden;
     position: fixed;
     width: 99%;
-    background-color: rgb(25, 150, 234);
+    background-color: rgb(84, 133, 111);
 }
 .skillbar
 {
@@ -19,7 +20,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color:  rgb(25, 150, 234);
+    background-color: rgb(84, 133, 111);
 }
 
 
@@ -33,13 +34,13 @@ a
 {
     text-decoration: none;
     cursor: pointer;
-    color: black;
+    color: rgb(54, 212, 202);
 }
 .pimg
 {
     padding:30px;
     height: 200px;
-    width: 200px;
+    width: 300px;
 }
 h1
 {
@@ -75,12 +76,12 @@ h1
     padding: 8px;
     justify-content: center;
     border-radius: 10px;
-    background-color:  rgb(25, 150, 234);
+    background-color: rgb(84, 133, 111);
     border: none;
 }
 .topic
 {
-    color: rgb(99, 13, 219);
+    color: rgb(56, 213, 231);
 }
 .image
 {
