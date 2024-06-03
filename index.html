@@ -9,7 +9,7 @@
 <body>
     <nav class="navbar" >
         <div>
-            <h2 style="color: #00203FFF;">Cibikanna</h2>
+            <h2 style="color:  #195190">Cibikanna</h2>
         </div>
         <ul class="nav">
             <li><a id="mhome">Home</a></li>
@@ -36,7 +36,7 @@
     <br>
 </div>
     <div id="skills">
-        <nav class="skillbar"><h1 style="color: #00203FFF;">Skills</h1></nav>
+        <nav class="skillbar"><h1>Skills</h1></nav>
         <h1 class="topic">Programming Languages</h1>
         <section class="languages">
             <div class="container">
@@ -83,19 +83,22 @@
         </section>
     </div>
     <div id="projects">
-        <nav class="skillbar"><h1 style="color: #00203FFF;">Projects</h1></nav>
+        <nav class="skillbar"><h1>Projects</h1></nav>
         <h3 style="justify-content: center; align-items: center; display: flex;">Minesweeper</h3>
         <div class="p1">
             <img class="pimg" src="images/Minesweeper.png" alt="Minesweeper">
             
-            <p><br>Developed a Minesweeper game using Java, showcasing proficiency in objectoriented programming .<br> Implemented the classic Minesweeper game play
-                mechanics and features, including random mine placement console application.<br>
-                Implemented the core game mechanics, such as revealing tiles, displaying
-                adjacent mine counts, and handling game over conditions.<br>
-                Developed an algorithm to generate mine placement randomly, ensuring each
-                game session is unique and challenging.<br>to see the implementation <a href="https://www.onlinegdb.com/lpiIOHYba" target="_blank">Click Here</a></p>
+            <p><br>This program implements a simple Minesweeper game.<br>
+                It consists of several classes that handle different aspects of the game: 
+                `Win_check` to verify if the player has won by checking if all non-mine cells are uncovered, <br>
+                `Printing` to display the game board, `Play_Game` to manage the gameplay logic,<br>
+                `Placing_mines` to randomly place mines and calculate adjacent mine counts, and 
+                `Extend_spaces` to reveal adjacent cells recursively when an empty cell is uncovered.<br>
+                The main class, `Minesweeper`, initializes a 9x9 game board, places mines, 
+                and then continuously prompts the user to enter row and column coordinates to uncover cells until they either uncover a mine and lose or uncover all non-mine cells and win.<a style="color: #A2A2A1;" href="https://www.onlinegdb.com/lpiIOHYba" target="_blank">Click Here</a></p>
+               
         </div>
-        <h3 style="justify-content: center; align-items: center; display: flex;">Tic-Tac-Toe</h3>
+        <h3 style="justify-content: center; align-items: center; display: flex; ">Tic-Tac-Toe</h3>
         <div class="p1">
             <img class="pimg" src="images/xo.png" alt="xo">
             
@@ -103,7 +106,7 @@
                 Implemented the game logic, user input handling, and board rendering
                 functionalities.<br>Utilized object-oriented programming principles to design the game structure and
                 modularize code.<br>Conducted thorough testing and debugging to ensure application stability and
-                reliability.<br>to see the implementation <a href="https://www.onlinegdb.com/-5UCQxTWb" target="_blank">Click Here</a>
+                reliability.<br>to see the implementation <a style="color: #A2A2A1;" href="https://www.onlinegdb.com/-5UCQxTWb" target="_blank">Click Here</a>
                 </p>
         </div>
         <h3 style="justify-content: center; align-items: center; display: flex;">Word Puzzle</h3>
@@ -112,12 +115,12 @@
             
             <p><br>Developed a console-based Word puzzle game application using Java.<br>
                 This Java program implements a simple word guessing game. It initializes a linked list to store words and their feedback.<br> The player repeatedly inputs 4-letter words, trying to guess a randomly selected word from a predefined list.<br> The program checks and counts the correct letters in the correct positions (bulls) and correct letters in the wrong positions (cows).<br> The results are stored and displayed after each guess. If the player guesses the word correctly, they win, and the game ends. The linked list is used to track and display.
-                <br>to see the implementation <a href="https://www.onlinegdb.com/ntR5SqK6n" target="_blank">Click Here</a>
+                <br>to see the implementation <a href="https://www.onlinegdb.com/ntR5SqK6n" style="color: #A2A2A1;" target="_blank">Click Here</a>
                 </p>
         </div>
         <h3 style="justify-content: center; align-items: center; display: flex;">Smart Dustbin</h3>
         <div class="p1">
-            <img class="pimg" src="images/xo.png" alt="xo">
+            <img class="pimg" src="images/sd.jpeg" alt="xo">
             
             <p><br>Smart dustbin using ultrasonic sensor for deducting the objects and IR sensor for
                 detecting the level of dustbin servo motors for open and closes the bin and
@@ -129,7 +132,14 @@
                 </p>
         </div>
     </div>
-    
+    <footer class="footer">
+        
+            <!-- <img src="images/mail.png" alt="Mail logo"> -->
+            <P>kannacibi@gmail.com</P>
+            <a href="https://github.com/Cibikanna" target="_blank">GitHub</a><br>
+            <a href="https://www.linkedin.com/in/cibi-kanna-460291239/" target="_blank">LinkedIn</a>
+        
+    </footer>
     
     <script src="index.js"></script>
 </body>
